@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="RTCore.cpp">
+      <Filter>RTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Native.cpp">
+      <Filter>Native</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="RTCore">
+      <UniqueIdentifier>{afaefdd7-48d9-48ee-9592-eadf6f9487b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Native">
+      <UniqueIdentifier>{d95b240c-8228-46c3-a357-a0a45c17f0ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RTCore.h">
+      <Filter>RTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Native.h">
+      <Filter>Native</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
